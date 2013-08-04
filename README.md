@@ -6,7 +6,9 @@ A layer for customizing the OpenEmbedded Raspberry Pi image.
 What this layer does
 --------------------
 
-* Adds python
+* Adds Python and RPi.GPIO module
+* Adds a custom splash screen
+* Includes a server for listening for connections to control the GPIO
 * TBD
 
 Dependencies
