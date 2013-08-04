@@ -2,7 +2,7 @@ DESCRIPTION = "Adds a python server for use with phone app controllers."
 HOMEPAGE = "http://www.github.com/petermuller/meta-tarsals"
 LICENSE = "GPLv3"
 SECTION = "console/tools"
-PR = "r1"
+PR = "r2"
 
 RDEPENDS_${PN} = "python rpi-gpio python-argparse"
 
