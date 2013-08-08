@@ -9,7 +9,12 @@ What this layer does
 * Adds Python and RPi.GPIO module
 * Adds a custom splash screen
 * Includes a server for listening for connections to control the GPIO
-* TBD
+
+Todo
+----
+
+* Boot loader for testing build as a VM
+* Simple X window manager (hopefully built from scratch)
 
 Dependencies
 ------------
