@@ -13,6 +13,8 @@ SRCREV_default_pn-gpio-server ?= "${AUTOREV}"
 
 S = "${WORKDIR}/git"
 
+COMPATIBLE_MACHINE = "raspberrypi"
+
 PACKAGES = " \
 	${PN} \
 	"
