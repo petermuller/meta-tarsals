@@ -7,6 +7,7 @@ IMAGE_INSTALL += "python \
 	gpio-server \
 	psplash \
 	python-twitter \
+	cronie \
 	"
 
 SPLASH = "psplash-rpi-tarsals"

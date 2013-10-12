@@ -1,14 +1,14 @@
 DESCRIPTION = "Adds a python server for use with phone app controllers."
 HOMEPAGE = "http://www.github.com/petermuller/meta-tarsals"
-LICENSE = "GPLv3"
+LICENSE = "MIT"
 SECTION = "console/tools"
-PR = "r2"
+PR = "r3"
 
 RDEPENDS_${PN} = "python rpi-gpio python-argparse"
 
-LIC_FILES_CHKSUM = "file://LICENSE;md5=d32239bcb673463ab874e80d47fae504"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=20829d0414e90525c97c4cab6db008a0"
 
-SRC_URI = "git://github.com/petermuller/windows-phone-gpio-controller.git"
+SRC_URI = "git://github.com/petermuller/pi-phone-server.git"
 SRCREV_default_pn-gpio-server ?= "${AUTOREV}"
 
 S = "${WORKDIR}/git"
@@ -27,6 +27,6 @@ FILES_${PN} = " \
 
 do_install() {
 	install -m 0755 -d ${D}/home/root/gpio-server
-	install -m 0644 ${S}/onThePi/PiFunctions.py ${D}/home/root/gpio-server
-	install -m 0644 ${S}/onThePi/PiServer.py ${D}/home/root/gpio-server
+	install -m 0644 ${S}/PiFunctions.py ${D}/home/root/gpio-server
+	install -m 0644 ${S}/PiServer.py ${D}/home/root/gpio-server
 }
