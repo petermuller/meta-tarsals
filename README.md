@@ -9,11 +9,13 @@ What this layer does
 * Adds Python and RPi.GPIO module
 * Adds a custom splash screen
 * Includes a server for listening for connections to control the GPIO
+* Adds Twitter support via the Python-Twitter API
+* Adds cron job support
+* QEMU-ARM image included for testing locally without Pi-specific packages
 
 Todo
 ----
 
-* Boot loader for testing build as a VM
 * Simple X window manager (hopefully built from scratch)
 
 Dependencies
