@@ -22,11 +22,11 @@ PACKAGES = " \
 FILES_${PN} = " \
 	/home/root/gpio-server \
 	/home/root/gpio-server/PiServer.py \
-	/home/root/gpio-server/PiFunctions.py \
+	/home/root/gpio-server/ServerInstance.py \
 	"
 
 do_install() {
 	install -m 0755 -d ${D}/home/root/gpio-server
-	install -m 0644 ${S}/PiFunctions.py ${D}/home/root/gpio-server
+	install -m 0644 ${S}/ServerInstance.py ${D}/home/root/gpio-server
 	install -m 0644 ${S}/PiServer.py ${D}/home/root/gpio-server
 }
