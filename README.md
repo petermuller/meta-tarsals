@@ -12,6 +12,7 @@ What this layer does
 * Adds Twitter support via the Python-Twitter API
 * Adds cron job support
 * QEMU-ARM image included for testing locally without Pi-specific packages
+* Adds an Apache2 webserver with MariaDB (MySQL) and PHP
 
 Todo
 ----
