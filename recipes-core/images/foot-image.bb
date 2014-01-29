@@ -5,6 +5,10 @@ IMAGE_INSTALL += "python \
 	psplash \
 	python-twitter \
 	cronie \
+	mariadb \
+	mysql-python \
+	apache2 \
+	php \
 	"
 
 SPLASH = "psplash-rpi-tarsals"
