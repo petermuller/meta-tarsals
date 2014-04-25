@@ -10,8 +10,8 @@ IMAGE_INSTALL += "python \
 	cronie \
 	apache2 \
 	php \
+	modphp \
 	mariadb \
-	mysql-python \
 	"
 
 SPLASH = "psplash-rpi-tarsals"
