@@ -11,7 +11,6 @@ IMAGE_INSTALL += "python \
 	apache2 \
 	php \
 	modphp \
-	mariadb \
 	"
 
 SPLASH = "psplash-rpi-tarsals"
