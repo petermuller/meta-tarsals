@@ -8,9 +8,6 @@ IMAGE_INSTALL += "python \
 	psplash \
 	python-twitter \
 	cronie \
-	apache2 \
-	php \
-	modphp \
 	"
 
 SPLASH = "psplash-rpi-tarsals"
